@@ -1,0 +1,31 @@
+SUITE_NAME: Test
+TEST_NG_CONFIG_FILE: testng.xml
+
+selenium:
+    server: local
+    remote:
+        host: path
+        port: 8080
+    browser: firefox
+    driverpath: "resources\\seleniumdriver\\"
+    timeout: 60
+    
+    
+baseurl: http://qa2-sam.cengage.com
+
+users:  
+  SuperUser:
+    UserName: super_T2056737@sam2010.com
+    
+  Password: password
+
+ 
+  Roles:
+    StudentRole: student
+    InstructorRole: instructor
+    AdministratorRole: administrator
+    
+  FirstName: SAM
+  LastName: SAM
+    
+ 

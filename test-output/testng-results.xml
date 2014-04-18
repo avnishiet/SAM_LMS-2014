@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103924" started-at="2014-04-17T13:00:17Z" finished-at="2014-04-17T13:02:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103924" started-at="2014-04-17T13:00:17Z" finished-at="2014-04-17T13:02:00Z">
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser@5e176f]" name="setUpClass" is-config="true" duration-ms="23861" started-at="2014-04-17T18:30:17Z" finished-at="2014-04-17T18:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="loginInApplication()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser@5e176f]" name="loginInApplication" duration-ms="5754" started-at="2014-04-17T18:30:40Z" finished-at="2014-04-17T18:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInApplication -->
+        <test-method status="PASS" signature="createAndEnrollUser()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser@5e176f]" name="createAndEnrollUser" duration-ms="71417" started-at="2014-04-17T18:30:46Z" depends-on-methods="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser.loginInApplication" finished-at="2014-04-17T18:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndEnrollUser -->
+        <test-method status="PASS" signature="verifyAdminUser()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser@5e176f]" name="verifyAdminUser" duration-ms="1098" started-at="2014-04-17T18:31:58Z" depends-on-methods="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser.createAndEnrollUser" finished-at="2014-04-17T18:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminUser -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser@5e176f]" name="logOut" is-config="true" duration-ms="1779" started-at="2014-04-17T18:31:59Z" finished-at="2014-04-17T18:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

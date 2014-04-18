@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Surefire suite</th></tr><tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">134,145</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser</td><td><a href="#m0">createAndEnrollUser</a></td><td rowspan="1">1397567639456</td><td rowspan="1">72819</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser</td><td><a href="#m1">verifyStudentUser</a></td><td rowspan="1">1397567712296</td><td rowspan="1">1</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser</td><td><a href="#m2">loginInApplication</a></td><td rowspan="1">1397567613059</td><td rowspan="1">26395</td></tr></tbody></table><h2>Surefire test</h2><h3 id="m0">com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser#createAndEnrollUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: Modal dialog present: Please select item(s) from list.
+Build info: version: &apos;2.39.0&apos;, revision: &apos;14fa800511cc5d66d426e08b0b2ab926c7ed7398&apos;, time: &apos;2013-12-16 13:18:38&apos;
+System info: host: &apos;HPDB0088&apos;, ip: &apos;10.161.244.94&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_39&apos;
+Session ID: a03fe37d-2d7c-45b1-bf99-3f3bb25c436a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=28.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:174)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:227)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:213)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:210)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.qait.samlms.ui.pageobjects.BasePage.waitForElementToBePresent(BasePage.java:370)
+	at com.qait.samlms.ui.pageobjects.UserPageUi.getSaveButton(UserPageUi.java:80)
+	at com.qait.samlms.actions.UserPageAction.clickSaveButton(UserPageAction.java:88)
+	at com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser.createAndEnrollUser(Test2CreateAndEnrollStudentUser.java:46)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser#verifyStudentUser</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser#loginInApplication</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

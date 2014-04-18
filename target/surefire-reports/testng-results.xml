@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="60273" started-at="2014-04-17T10:57:48Z" finished-at="2014-04-17T10:58:48Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="60273" started-at="2014-04-17T10:57:48Z" finished-at="2014-04-17T10:58:48Z">
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd@1112783]" name="setUpClass" is-config="true" duration-ms="25867" started-at="2014-04-17T16:27:48Z" finished-at="2014-04-17T16:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="loginInApplication()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd@1112783]" name="loginInApplication" duration-ms="11947" started-at="2014-04-17T16:28:14Z" finished-at="2014-04-17T16:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInApplication -->
+        <test-method status="PASS" signature="verifyDropBoxFromStudentSide()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd@1112783]" name="verifyDropBoxFromStudentSide" duration-ms="19198" started-at="2014-04-17T16:28:26Z" depends-on-methods="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd.loginInApplication" finished-at="2014-04-17T16:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropBoxFromStudentSide -->
+        <test-method status="PASS" signature="verifyDropBoxTable()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd@1112783]" name="verifyDropBoxTable" duration-ms="982" started-at="2014-04-17T16:28:45Z" depends-on-methods="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd.verifyDropBoxFromStudentSide" finished-at="2014-04-17T16:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropBoxTable -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd@1112783]" name="logOut" is-config="true" duration-ms="2269" started-at="2014-04-17T16:28:46Z" finished-at="2014-04-17T16:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

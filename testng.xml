@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test0SuperCreatesAdminUser"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test1aAdminEula"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test1bAdminCreatesInstructor"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test1cInstructorEula"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test1dInstructorCreatesSection"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test1eInstructorCreatesSecondSection"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test2CreateAndEnrollStudentUser"/>  
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test3aVerifyTheDropboxFromInstructorEnd"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test3bVerifyDropboxTableDefaultValuesFromInstructorEnd"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test3cVerifyTheDropboxFromAdminEnd"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test3dVerifyTheDropboxFromSuperEnd"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test4StudentAcceptsEula"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5bVerifyDropboxTableDefaultValuesFromStudentSide"/>
+      <class name="com.qait.samlms.test.SamStudentDropBoxFlow.basicFlow.Test5VerifyDropBoxFromStudentEnd"/>      
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
